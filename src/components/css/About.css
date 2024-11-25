@@ -1,0 +1,34 @@
+/* Additional styles for the enhanced About page */
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .highlight {
+    color: #ffb969; /* Highlight color */
+    font-weight: bold;
+  }
+  
+  /* Interactive element styles */
+  .explore-button {
+    background-color: #4caf50; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #45a049; /* Darker color on hover */
+  }
+  

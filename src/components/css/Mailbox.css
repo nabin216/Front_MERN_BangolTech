@@ -1,0 +1,32 @@
+/* Mailbox.css */
+
+.mailbox-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .email-input {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  input {
+    border-radius: 20px; /* Add border-radius for the email input */
+    padding: 15px; /* Add padding as needed */
+  }
+  
+  button {
+    padding-left: 10px;
+    border-radius: 20px; /* Add border-radius for the button */
+    padding: 20px; /* Add padding as needed */
+    background-color: #fa4417; /* Change the background color if desired */
+    color: #fff; /* Change the text color if desired */
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #08b35a; /* Change the hover background color if desired */
+  }
+  

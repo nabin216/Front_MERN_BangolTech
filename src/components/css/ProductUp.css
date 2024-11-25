@@ -1,0 +1,60 @@
+.upload-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea,
+  button {
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Styling for image upload */
+  #image {
+    margin-top: 8px;
+  }
+  
+  /* Optional: Add styles for better file input appearance */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-input {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Style the file input label */
+  .custom-file-input-label {
+    margin-bottom: 16px;
+  }
+  

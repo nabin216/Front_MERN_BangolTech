@@ -1,0 +1,51 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #001885;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-social,
+.footer-map {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-info h2,
+.footer-social h2,
+.footer-map h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Update the style for FontAwesome icons */
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px; /* Set the font size for FontAwesome icons */
+  margin-right: 10px;
+}
+
+/* Styling for links */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fh1 {
+  color: #ffffff;
+}
+
+.fh2{
+  color: #fff;
+  font-size: 10px;
+}

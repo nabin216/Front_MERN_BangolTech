@@ -1,0 +1,54 @@
+/* ChooseUs.css */
+
+.choose-us-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.choose-us-heading {
+  color: #ff6600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.choose-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.choose-us-item {
+  /* Apply styling to each item individually */
+  flex: 1 1 calc(50% - 40px); /* Two items per row for small screens (adjust margin) */
+  max-width: 200px;
+  text-align: center;
+  margin: 20px;
+  border: 0px solid #fcf3f3;
+  padding: 20px;
+  background-color: hsla(189, 100%, 42%, 0);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Default box shadow */
+
+  /* Media queries for different screen sizes */
+  @media (min-width: 600px) {
+    flex: 1 1 calc(50% - 40px); /* Two items per row for medium screens (adjust margin) */
+  }
+
+  @media (min-width: 900px) {
+    flex: 1 1 calc(25% - 40px); /* Four items per row for large screens (adjust margin) */
+  }
+}
+
+.choose-us-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+ .choose-us-item {
+  transition: transform 0.3s ease; 
+  &:hover {
+    background-color: rgb(116, 255, 160);
+    transform: scale(1.1); 
+  }
+}

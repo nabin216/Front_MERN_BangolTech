@@ -1,0 +1,69 @@
+/* Aboutus.css */
+
+.about-us-container {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* Set the text color */
+  padding: 20px; /* Add padding as needed */
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  background: linear-gradient(to bottom, #ffffff 0%, #6e21cd 100%);
+}
+
+.box {
+  display: flex;
+  overflow: hidden; /* Hide the overflow to contain the image */
+  margin-bottom: 20px; /* Add margin to create space between boxes */
+  box-shadow: 5px 5px 10px rgba(2, 1, 1, 0.3);
+  scale: 20px;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  border-radius: 20px;
+}
+
+.left-section {
+  flex: 1;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-right: 0px solid #000; /* Border styling for the right section */
+  background: #f75a32;
+}
+
+.about-us-image-container {
+  width: 100%; /* Adjusted to make it responsive */
+  max-width: 600px;
+  height: 100%; /* Maintain aspect ratio */
+  overflow: hidden; /* Hide the overflow to contain the image */
+}
+
+.about-us-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.h11 {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .box {
+    flex-direction: column; /* Stack boxes vertically for small screens */
+  }
+
+  .left-section{
+    padding: 30px;
+  }
+}
+
+/* Style for clicked state */
+.box.clicked {
+  background: rgb(241, 233, 216) /* Set your desired color for the clicked state */
+}

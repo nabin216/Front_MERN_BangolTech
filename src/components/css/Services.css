@@ -1,0 +1,92 @@
+/* Services.css for styling the Services page */
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.services-container h1 {
+ color: #ff1d1d;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+
+.service-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.service-details h2 {
+  margin-bottom: 10px;
+}
+
+.service-details p {
+  color: #4e4e4e;
+  text-align: justify;
+
+}
+
+/* Alternate the placement of service items */
+.service-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.service-item:nth-child(even) .service-image {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* Center the "Read More" button */
+.more-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.explore-button {
+  background-color: #ff1d1d; /* Button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: green; /* Darker color on hover */
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .service-item,
+  .service-item:nth-child(even) {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px; /* Consistent margin for service items on small screens */
+  }
+
+  .service-image {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
