@@ -35,6 +35,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "homepage": "https://nabin216.github.io/Front_MERN_BangolTech",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
